@@ -12,7 +12,7 @@
 
 ## Store structure
 
-The first level is the global store we use combineReducers() here to combine all the modules. Each module has its own actions, types and reducers. The reducers are combined again in each module and are exported as [moduleName]Reducer. The actions are also exported from each module so they can be used by our components.
+The first level is the global store. Here we make use of combineReducers() to bundle all the modules. Each module has its own actions, types and reducers. The reducers are combined again in each module and are exported as [moduleName]Reducer. The actions are also exported from each module so they can be used by our components.
 
 * store
   * userReducer
